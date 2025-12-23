@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #8b0000, #ff9966);
+    color: #333;
+}
+
+/* HEADER */
+header {
+    text-align: center;
+    padding: 25px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+/* NAVBAR */
+nav {
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    padding: 12px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px 14px;
+    border-radius: 20px;
+}
+nav a:hover {
+    background: #ffcc99;
+    color: #000;
+}
+
+/* SECTION */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* TITLES */
+h2 {
+    color: white;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+/* GRID */
+.menu-grid, .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* CARD */
+.card {
+    background: rgba(255,255,255,0.95);
+    border-radius: 18px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* ICON STYLE */
+.card img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-weight: bold;
+    color: #8b0000;
+}
+
+/* CONTACT BOX */
+.contact-container {
+    max-width: 650px;
+    margin: auto;
+    background: rgba(255,255,255,0.95);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    text-align: left;
+}
+.contact-container h2 {
+    text-align: center;
+    color: #8b0000;
+}
+.contact-container b {
+    color: #8b0000;
+}
+
+/* FOOTER */
+footer {
+    background: rgba(0,0,0,0.7);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
